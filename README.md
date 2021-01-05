@@ -11,3 +11,13 @@ Create my PoC - For vulnerabilities
 cd herokuapp
 sh create.sh {HEROKUAPP_NAME} 
 ```
+
+#### AWS S3 Bucket - Is Vulnerable?
+
+It will check whether there is READ / WRITE access available for the bucket
+
+> Note: Configure AWS credentials using `aws configure`
+
+```
+sh awss3.sh {BUCKET_NAME}
+```
