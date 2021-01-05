@@ -1,0 +1,14 @@
+#!/bin/sh
+
+echo "Deploying for herokuapp: "$1
+
+echo "Removing existing git directory"
+rm -rf .git
+
+echo "Commit template to repository"
+git init && git add . && git commit -am "Update landing page" && git push heroku master
+
+echo "Deploying to heroku"
+heroku git:remote -a $1
+
+
