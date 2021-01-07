@@ -6,6 +6,7 @@ Create my PoC - For vulnerabilities
 #### Herokuapp PoC
 
 1. Create herokuapp from your heroku console
+2. Login to heroku from your terminal using command `heroku login`
 
 ```
 cd herokuapp
