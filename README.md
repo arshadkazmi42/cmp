@@ -20,6 +20,7 @@ sh create.sh {HEROKUAPP_NAME}
 > Note: Configure AWS credentials using `aws configure`
 
 It will check whether there is READ / WRITE access available for the bucket and uploads `takeover.html` to s3 bucket
+
 **Note:** Edit `awss3/takeover.html` to add your takeover mesage`
 
 ```bash
