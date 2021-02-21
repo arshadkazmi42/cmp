@@ -28,6 +28,21 @@ cd awss3
 sh awss3.sh {BUCKET_NAME}
 ```
 
+**Create a bucket and upload PoC**
+
+```bash
+cd awss3
+sh create.sh {BUCKET_NAME}
+```
+
+**Remove a bucket and delete all its content**
+
+```bash
+cd awss3
+sh remove.sh {BUCKET_NAME}
+```
+
+
 #### Surge Domain Takever PoC
 
 1. Install surge from this link [https://surge.sh/help/getting-started-with-surge](https://surge.sh/help/getting-started-with-surge)
