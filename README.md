@@ -10,8 +10,8 @@ Create my PoC - For vulnerabilities
 3. Edit `herokuapp/home.html` to add your takeover message
 
 ```bash
-cd herokuapp
-sh create.sh {HEROKUAPP_NAME} 
+$ cd herokuapp
+$ sh create.sh {HEROKUAPP_NAME} 
 ```
 
 #### AWS S3 Bucket Takeover PoC
@@ -24,22 +24,22 @@ It will check whether there is READ / WRITE access available for the bucket and 
 **Note:** Edit `awss3/takeover.html` to add your takeover mesage`
 
 ```bash
-cd awss3
-sh awss3.sh {BUCKET_NAME}
+$ cd awss3
+$ sh awss3.sh {BUCKET_NAME}
 ```
 
 **Create a bucket and upload PoC**
 
 ```bash
-cd awss3
-sh create.sh {BUCKET_NAME}
+$ cd awss3
+$ sh create.sh {BUCKET_NAME}
 ```
 
 **Remove a bucket and delete all its content**
 
 ```bash
-cd awss3
-sh remove.sh {BUCKET_NAME}
+$ cd awss3
+$ sh remove.sh {BUCKET_NAME}
 ```
 
 
@@ -49,7 +49,16 @@ sh remove.sh {BUCKET_NAME}
 2. Edit `surge/200.html` to add your takeover message
 
 ```bash
-cd surge
-sh create.sh {SURGE_DOMAIN}
+$ cd surge
+$ sh create.sh {SURGE_DOMAIN}
 ```
 
+
+#### Zendesk Name Availability
+
+1. Run below command to check if name is available on zendesk
+
+```bash
+$ cd zendesk
+$ sh check.sh {NAME}
+```

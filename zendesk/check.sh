@@ -1,0 +1,1 @@
+curl 'https://www.zendesk.com/wp-content/themes/zendesk-twentyeleven/lib/domain-check.php' -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:88.0) Gecko/20100101 Firefox/88.0' -H 'Accept: */*' -H 'Accept-Language: en-US,en;q=0.5' --data-raw 'domain='$1
