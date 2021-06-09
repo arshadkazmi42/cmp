@@ -58,7 +58,31 @@ $ sh create.sh {SURGE_DOMAIN}
 
 1. Run below command to check if name is available on zendesk
 
+
 ```bash
 $ cd zendesk
 $ sh check.sh {NAME}
+```
+
+#### Facebook
+
+1. Update check.sh with page username, access token
+
+
+```bash
+$ sh check.sh {PATH}
+```
+
+#### Google
+
+1. Install authclient dependency
+
+```bash
+$ pip3 install --upgrade oauth2client
+```
+
+2. Update auth_poc.py with credentials, scope
+
+```bash
+$ python3 auth_poc.py
 ```
