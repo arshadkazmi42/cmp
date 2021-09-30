@@ -2,7 +2,7 @@
 
 echo "Creating bucket: "$1
 
-aws s3api create-bucket --bucket $1 --region us-east-1
+aws s3api create-bucket --bucket $1 --region us-east-1 > /dev/null 2>&1
 
 echo "Uploading PoC"
 
